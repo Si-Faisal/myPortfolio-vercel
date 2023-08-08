@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #212529;
+}
+ul li>a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul li>a:hover {
+    color: #ff014f !important;
+}
+
+.active {
+    color: #ff014f !important;
+}
+
+.nav-blur ul:hover> li:not(:hover) {
+    filter: blur(6px);
+    /* transform: scale(0.9, 0.9); */
+}
+.arrow-up{
+   background-color:#212428 ; 
+   box-shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
+}
+.arrow-up:hover{
+   box-shadow: inset 21px 21px 19px #181a1d,
+    inset -21px -21px 19px #202225; 
+}

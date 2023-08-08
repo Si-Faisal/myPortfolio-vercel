@@ -1,0 +1,204 @@
+/* .developer-name {
+  font-size: 36px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.developer-name::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(76, 175, 80, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.developer-name:hover {
+  color: #4caf50;
+}
+
+.developer-name:hover::after {
+  transform: translateX(-50%) scale(20);
+  opacity: 1;
+} */
+
+
+/* .developer-name {
+  font-size: 36px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+  transition: color 0.3s;
+} */
+
+/* .developer-name::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #4caf50;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+} */
+
+/* .developer-name:hover {
+  color: #4caf50;
+ 
+  animation: lightingEffect 1s ease-in-out infinite alternate;
+} */
+
+/* .developer-name:hover::after {
+  animation: lightingEffect 0.5s ease-in-out forwards;
+} */
+
+/* @keyframes lightingEffect {
+  0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #29e208, 0 0 40px #21c704, 0 0 50px #21c704, 0 0 60px #21c704, 0 0 70px #21c704;
+    }
+  
+    100% {
+      text-shadow: 0 0 20px #fff, 0 0 30px #5bf840, 0 0 40px #5bf840, 0 0 50px #5bf840, 0 0 60px #5bf840, 0 0 70px #5bf840, 0 0 80px #5bf840;
+    }
+} */
+.developer-container{
+  background-color: rgb(48, 23, 23);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.developer-name {
+  font-family: 'Londrina Shadow', cursive;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-top: 0;
+    font-weight: 800;
+    padding: 10px 0;
+    margin: 20px auto;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s;
+  text-shadow: 0 0 0 transparent;
+  /* Add initial text shadow */
+}
+
+.developer-name::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #4caf50;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.developer-name:hover {
+  /* color: #4caf50; */
+  /* text-shadow: 0 0 30px rgba(76, 175, 80, 0.8); */
+  /* Update the text shadow on hover */
+  animation: lightingEffect 1s ease-in-out infinite alternate;
+}
+
+.developer-name:hover::after {
+  transform: scaleX(1);
+}
+
+@keyframes lightingEffect {
+  0% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #29e208, 0 0 40px #21c704, 0 0 50px #21c704, 0 0 60px #21c704, 0 0 70px #21c704;
+  }
+
+  100% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #5bf840, 0 0 40px #5bf840, 0 0 50px #5bf840, 0 0 60px #5bf840, 0 0 70px #5bf840, 0 0 80px #5bf840;
+  }
+}
+
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navbar links */
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Mobile menu */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar.active .navbar-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .navbar.active .navbar-links a {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #777;
+  }
+}
+
+.homepage{
+  width: 100%;
+  /* height: 1200px; */
+  background-color: #212428;
+  z-index: -7;
+}

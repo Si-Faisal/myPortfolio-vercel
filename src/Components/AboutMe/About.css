@@ -1,0 +1,301 @@
+/* @import 'daisyui/dist/full.css'; */
+
+
+.about-title{
+   
+    color: #f9004d;
+    letter-spacing: 1px;
+    display: block;
+    
+
+
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 15px;
+    margin-bottom: 0;
+
+}
+
+
+.about-container {
+    width: 100%;
+    min-height: auto;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px 60px;
+     */
+     margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+    /* background: #cfd1e1; */
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    /* background: linear-gradient(#fff, #fff, #e3e3e3); */
+    filter: blur(1px);
+    z-index: 1;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: -1px;
+    width: 20px;
+    height: 100%;
+    /* background: #9d9d9d; */
+    filter: blur(1px);
+    z-index: 1;
+}
+
+.box .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: #eee; */
+}
+
+.box .shadow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(100% + 5px);
+    width: 100%;
+    height: 200%;
+    background: #ff014f, transparent;
+    transform: skewX(45deg);
+}
+
+.box .shadow::after {
+    content: '';
+    position: absolute;
+    bottom: -200%;
+    left: calc(100% + 15px);
+    width: 100%;
+    height: 200%;
+    background: #ff014f, transparent;
+    transform: skewX(45deg);
+}
+
+.box .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background: #ff014f; */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1),
+        10px 10px 10px rgba(0, 0, 0, 0.1),
+        15px 15px 15px rgba(0, 0, 0, 0.1),
+        35px 35px 35px rgba(0, 0, 0, 0.1),
+        inset 2px 2px 2px #2c2929;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .content .percent {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.box .content .percent::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 20px;
+    /* background: #555; */
+    background-color: #ff014f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.box .content .percent svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    stroke-width: 10;
+    /* transform: rotate(270deg); */
+    transform-origin: center;
+}
+
+.box .content .percent svg circle {
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width:2;
+    stroke: rgba(0, 0, 0, 0);
+    /* transform: translate(5px, 5px); */
+}
+
+.box .content .percent svg circle:nth-child(2) {
+    stroke: #ff014f;
+    stroke-dasharray: 300;
+    stroke-dashoffset: calc(300 - (300 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.box .content .percent .dot {
+    position: absolute;
+    width: 8px;
+        height: 8px;
+    inset: 5px;
+    top: -5px;
+        /* Position the dot above the circle */
+        left: 50%;
+    z-index: 10;
+    animation: animateDot 2s linear forwards;
+    transform-origin: 50% 100%;
+}
+
+@keyframes animateDot {
+0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(calc(360deg * var(--num) / 100));
+        /* Rotate based on the progress */
+    }
+}
+
+.box .content .percent .dot::before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+        height: 8px;
+    background: #555;
+    border-radius: 50%;
+}
+
+.box .content .number {
+    position: relative;
+    inset: 0;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1.5s;
+}
+
+.box .content .number h2 {
+    font-size: 2.5rem;
+    color: #ff014f;
+}
+
+.box .content .number h2 span {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+
+/* educational */
+.edu{
+    color: rgb(0, 140, 255);
+}
+.edu .t-header{
+    color: #ff014f;
+}
+.table-my-edu .nb{
+    /* font-size: 18px; */
+  color: #e494ac;
+}
+
+
+@media (max-width: 767px) {
+    .about-title {
+        font-size: 30px;
+    }
+
+    .about-container {
+        gap: 20px 30px;
+    }
+
+    .box {
+        width: 140px;
+        height: 150px;
+    }
+
+    .content .percent {
+        width: 90px;
+        height: 90px;
+    }
+
+    .content .percent::before {
+        font-size: 1rem;
+    }
+        .content .number {
+            margin: 0;
+        }
+
+    .content .number h2 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+}
+
+/* CSS for tablet layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about-title {
+        font-size: 40px;
+    }
+
+    .about-container {
+        gap: 30px 50px;
+    }
+
+    .box {
+        width: 160px;
+        height: 170px;
+    }
+
+    .content .percent {
+        width: 110px;
+        height: 110px;
+    }
+
+    .content .percent::before {
+        font-size: 1.3rem;
+    }
+
+    .content .number h2 {
+        font-size: 1.8rem;
+    }
+}

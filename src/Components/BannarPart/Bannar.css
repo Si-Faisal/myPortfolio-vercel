@@ -1,0 +1,366 @@
+.subtitle{
+    color: #c4cfde;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
+.title{
+    width: 100%;
+    color: #ffffff;
+    /* font-size: 55px; */
+    font-weight: 700;
+    /* line-height: 75px; */
+    
+}
+.title span{
+    width: 100%;
+    color: #ff014f;
+    margin: 0;
+}
+.animated-text span {
+    color: #ffffff;
+    /* font-size: 40px; */
+    font-weight: 700;
+    /* margin-left: 10px; */
+}
+
+.summary{
+    margin : 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #c4cfde;
+    padding-right: 16%;
+    opacity: 0.9;
+   
+}
+.social{
+    width: 100%;
+   
+}
+
+.social .social-title{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color:#c4cfde ;
+    display: inline-block;
+    margin: 60px  0 20px 0;
+}
+
+/* social icon css start here */
+
+.social-icon{
+    width: 100%;
+    height: 150px;
+}
+
+.social-icon ul {
+    
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon ul li {
+    width: 25%;
+    position: relative;
+    list-style: none;
+    margin: 0 5px;
+}
+
+.social-icon ul li a {
+    text-decoration: none;
+    /* display: relative; */
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    text-align: left;
+    /* padding-left: 20px; */
+    transform: rotate(-30deg) skew(25deg) translate(0, 0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0, 0, 0, .5);
+}
+
+.social-icon ul li a .fa {
+    font-size: 12px;
+    color: #262626;
+    line-height: 20px;
+    transition: .5s;
+    padding-right: 5px;
+}
+
+.social-icon ul li a span {
+    padding: 0;
+    margin: 0;
+    /* position: absolute;
+    top: 30px; */
+    color: #262626;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+
+
+.social-icon ul li a:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+}
+
+.social-icon ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+.social-icon ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+    box-shadow: -50px 50px 50px rgba(203, 227, 228, 0.5);
+}
+
+.social-icon ul li:hover .fa {
+    color: #fff;
+}
+
+.social-icon ul li:hover span {
+    color: #fff;
+}
+
+.social-icon ul li:hover:nth-child(1) a {
+    background: #3b5998;
+}
+
+.social-icon ul li:hover:nth-child(1) a:before {
+    background: #365492;
+}
+
+.social-icon ul li:hover:nth-child(1) a:after {
+    background: #4a69ad;
+}
+
+.social-icon ul li:hover:nth-child(2) a {
+    background: #333;
+}
+
+.social-icon ul li:hover:nth-child(2) a:before {
+    background: #333;
+}
+
+.social-icon ul li:hover:nth-child(2) a:after {
+    background: #333;
+}
+
+.social-icon ul li:hover:nth-child(3) a {
+    background: #0A66C2;
+}
+
+.social-icon ul li:hover:nth-child(3) a:before {
+    background: #0A66C2;
+}
+
+.social-icon ul li:hover:nth-child(3) a:after {
+    background: #0A66C2;
+}
+
+.social-icon ul li:hover:nth-child(4) a {
+    background: #e4405f;
+}
+
+.social-icon ul li:hover:nth-child(4) a:before {
+    background: #d81c3f;
+}
+
+.social-icon ul li:hover:nth-child(4) a:after {
+    background: #e46880;
+}
+
+/* social icon css end here */
+
+
+/* resume button css here */
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+.shadow__btn {
+    background: rgb(0, 140, 255);
+    box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+
+.shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0, 140, 255),
+        0 0 25px rgb(0, 140, 255),
+        0 0 50px rgb(0, 140, 255),
+        0 0 100px rgb(0, 140, 255);
+}
+
+/* resume button css end  */
+
+.imagebgstyle {
+    position: relative;
+    z-index: 2;
+}
+.imagebgstyle::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: calc(100% - 170px);
+    content: "";
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 6px;
+}
+.mypic{
+    
+    text-align: center;
+}
+
+.mypic img{
+    z-index: 8;
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    height: 580px;
+}
+
+
+
+
+
+/* For devices with a maximum width of 767px */
+@media (max-width: 767px) {
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .animated-text span {
+        font-size: 24px;
+    }
+
+    .summary {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .social-icon ul {
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .social-icon ul li {
+        width: 20%;
+        margin: 0;
+    }
+
+    .social-icon ul li a {
+        height: 30px;
+    }
+
+    .mypic img {
+        height: 300px;
+        /* Adjust the image height for mobile devices */
+    }
+
+        .imagebgstyle::before {
+           
+            height: calc(100% - 100px);
+            
+        }
+}
+
+/* For larger devices like laptops and tablets */
+/* You can modify this as per your desired breakpoint */
+@media (min-width: 768px) {
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 55px;
+        line-height: 75px;
+    }
+
+    .title span {
+        font-size: 55px;
+        /* Adjust as per your preference */
+    }
+
+    .animated-text span {
+        font-size: 40px;
+    }
+
+    .summary {
+        font-size: 18px;
+        padding-right: 16%;
+    }
+
+    .social {
+        display: block;
+    }
+
+    .social-icon ul {
+        top: 10%;
+        left: 0%;
+        width: 100%;
+    }
+
+    .social-icon ul li {
+        width: 25%;
+        margin: 0 5px;
+    }
+
+    .mypic img {
+        height: 580px;
+    }
+}
