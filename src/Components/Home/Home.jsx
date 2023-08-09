@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react';
 import './Home.css'
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+import { FaArrowUp } from 'react-icons/fa';
 import logogif from '../../assets/img/tslogo.gif'
 import Bannar from '../BannarPart/Bannar';
 import ReactChrono from '../Chrono/ReactChrono';
 import Projects from '../Projects/Projects';
 import ContactUs from '../ContactUs/ContactUs';
 import AboutMe from '../AboutMe/AboutMe';
-import { FaArrowUp } from 'react-icons/fa';
+
 
 
 
@@ -62,7 +63,7 @@ const Home = () => {
 
 
     return (
-        <div className='container mx-auto px-6 lg:px-10'>
+        <div className='container mx-auto px-6 lg:px-10 scroll-smooth'>
             <div className="navbar text-white  justify-between nav-blur pt-5 sticky top-0 z-50">
                 <div className="navbar-start ">
                     <div className="dropdown">

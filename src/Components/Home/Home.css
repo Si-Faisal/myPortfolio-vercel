@@ -27,3 +27,7 @@ ul li>a:hover {
    box-shadow: inset 21px 21px 19px #181a1d,
     inset -21px -21px 19px #202225; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
