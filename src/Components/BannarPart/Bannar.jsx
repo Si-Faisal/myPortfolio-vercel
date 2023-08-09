@@ -14,21 +14,23 @@ import { FaInstagram } from 'react-icons/fa';
 const Bannar = () => {
 
     const handleDownloadResume = async () => {
-        try {
-            const response = await fetch(resumeFile);
-            const fileBlob = await response.blob();
-            const fileURL = URL.createObjectURL(fileBlob);
+        // try {
+        //     const response = await fetch(resumeFile);
+        //     const fileBlob = await response.blob();
+        //     const fileURL = URL.createObjectURL(fileBlob);
 
-            const link = document.createElement('a');
-            link.href = fileURL;
-            link.download = 'SiFaisalresume.pdf';
-            link.click();
+        //     const link = document.createElement('a');
+        //     link.href = fileURL;
+        //     link.download = 'SiFaisalresume.pdf';
+        //     link.click();
 
-            // Clean up the URL object after the download is initiated
-            URL.revokeObjectURL(fileURL);
-        } catch (error) {
-            console.error('Error downloading resume:', error);
-        }
+        //     // Clean up the URL object after the download is initiated
+        //     URL.revokeObjectURL(fileURL);
+        // } catch (error) {
+        //     console.error('Error downloading resume:', error);
+        // }
+
+        window.open(resumeFile, '_blank');
     };
     return (
         <div className=' mx-auto  lg:mt-10'>
