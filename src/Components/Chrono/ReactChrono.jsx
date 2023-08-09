@@ -5,7 +5,7 @@ import './Reactchrono.css'
 import { Chrono } from "react-chrono";
 import html from '../../assets/logo/html.png'
 import html1 from '../../assets/logo/html.png'
-import css from '../../assets/logo/css.png'
+import css from '../../assets/logo/CSS.png'
 import js from '../../assets/logo/javascript.png'
 import ES6 from '../../assets/logo/es6.png'
 import react from '../../assets/logo/react.png'
