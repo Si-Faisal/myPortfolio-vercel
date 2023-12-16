@@ -14,40 +14,24 @@ import { FaInstagram } from 'react-icons/fa';
 const Bannar = () => {
 
     const handleDownloadResume = async () => {
-        // try {
-        //     const response = await fetch(resumeFile);
-        //     const fileBlob = await response.blob();
-        //     const fileURL = URL.createObjectURL(fileBlob);
-
-        //     const link = document.createElement('a');
-        //     link.href = fileURL;
-        //     link.download = 'SiFaisalresume.pdf';
-        //     link.click();
-
-        //     // Clean up the URL object after the download is initiated
-        //     URL.revokeObjectURL(fileURL);
-        // } catch (error) {
-        //     console.error('Error downloading resume:', error);
-        // }
+        
 
         window.open(resumeFile, '_blank');
     };
     return (
         <div className=' mx-auto  lg:mt-10'>
             <div className='flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-10 text-white  '>
-                <div className='lg:col-span-7 mt-10 lg:ms-9'>
+                <div className='lg:col-span-7 mt-10 lg:ms-6'>
 
-                    <span
-                        
-                        className='subtitle'>  Welcome to my world
+                    <span className='subtitle'>  Welcome to my world
                     </span>
                    
                         <h1 className='title text-3xl lg:text-5xl lg:leading-tight'> Hi I'm <br /> <span className='py-4'>Shahidul Islam Faisal</span>
 
                         </h1>
                     
-                    <h2 className='animated-text'> 
-                        <span style={{ color: 'white' }} className='animated-text text-3xl lg:text-4xl'>a
+                    <h2 className='animated-text text-left items-start'> 
+                        <span style={{ color: 'white' }} className='animated-text text-3xl  lg:text-4xl'>a
                             <Typewriter
                                 words={[' Front-End-Developer', ' MERN Stack Developer', ' React Developer', ' Professional Coder']}
                                 loop={false}
@@ -75,7 +59,7 @@ const Bannar = () => {
                         </button>
                     </div>
                     <div className='social hidden lg:block'>
-                        <span className='social-title'>Find with me</span>
+                        <span className='social-title'>Find ME</span>
                         <div className='social-icon relative mt-6'>
                             <ul>
                                 <li>
@@ -108,9 +92,7 @@ const Bannar = () => {
                 </div>
                 <div className='lg:col-span-5 w-full'>
                     <div className='imagebgstyle'>
-                        <div
-                           
-                            className=' mypic'>
+                        <div className=' mypic'>
                           <img className='w-full h-full' src={mypic} alt='' /> 
                         </div>
                     </div>

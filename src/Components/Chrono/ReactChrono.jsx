@@ -50,7 +50,7 @@ const ReactChrono = () => {
 
             <div className='skill header py-20 text-white'>
                 <span className='sub-title'>Features</span>
-                    <h1 className='title text-3xl lg:text-5xl lg:leading-tight'>What Skill I Have</h1>
+                    <h1 className='title text-3xl lg:text-5xl lg:leading-tight'>My Technical Skills</h1>
             </div>
             
             <div className=' mx-auto grid grid-cols-1 lg:grid-cols-4 gap-2'>

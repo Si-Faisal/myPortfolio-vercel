@@ -1,0 +1,40 @@
+
+.vertical-timeline-element:first-child {
+  margin-top: 14px;
+}
+
+.vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 35px;
+  height: 100%;
+  width: 5px;
+  background: var(--line-color);
+}
+
+.vertical-timeline-element-icon {
+  /* position: absolute;
+  top: 0px; */
+  
+  width: 76px;
+  height: 76px;
+ display: flex !important;
+ justify-content: center;
+ align-items: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+}
+
+.vertical-timeline-element-icon svg {
+  display: block !important;
+  width: 51px !important;
+  height: 87px !important;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin-left: 0;
+   margin-top:0;
+  
+}

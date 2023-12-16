@@ -10,9 +10,8 @@
 .title{
     width: 100%;
     color: #ffffff;
-    /* font-size: 55px; */
     font-weight: 700;
-    /* line-height: 75px; */
+   
     
 }
 .title span{
@@ -22,9 +21,8 @@
 }
 .animated-text span {
     color: #ffffff;
-    /* font-size: 40px; */
+   
     font-weight: 700;
-    /* margin-left: 10px; */
 }
 
 .summary{
@@ -307,15 +305,13 @@
     }
 
     .mypic img {
-        height: 300px;
+        height: 450px;
         /* Adjust the image height for mobile devices */
     }
 
-        .imagebgstyle::before {
-           
-            height: calc(100% - 100px);
-            
-        }
+   .imagebgstyle::before {
+      height: calc(100% - 100px);
+    }
 }
 
 /* For larger devices like laptops and tablets */

@@ -9,6 +9,8 @@ import ReactChrono from '../Chrono/ReactChrono';
 import Projects from '../Projects/Projects';
 import ContactUs from '../ContactUs/ContactUs';
 import AboutMe from '../AboutMe/AboutMe';
+import CssTimeLineMulti from '../Chrono/CssTimeLineMulti';
+import Verticaltimeline from '../VerticalTimeline/Verticaltimeline';
 
 
 
@@ -42,16 +44,16 @@ const Home = () => {
     };
 
     const navlink = () => {
-        const links = ['Home', 'Skill', 'Projects', 'About', 'Contact me'];
+        const links = ['Home', 'Skill', 'Projects', 'About', 'Contact Me'];
 
         return links.map((link, index) => (
             <li key={index}>
                 <ScrollLink
                     to={link.toLowerCase()}
                     smooth={true}
-                    duration={500}
+                    duration={100}
                     spy={true}
-                    offset={90} // Adjust the offset value as per your header height
+                    offset={-120} // Adjust the offset value as per your header height
                     onClick={() => handleLinkClick(link)}
                     className={activeLink === link ? 'active' : ''}
                 >
@@ -115,7 +117,20 @@ const Home = () => {
             
 
             <div className="section" id="skill">
-                <ReactChrono></ReactChrono>
+            <div className='skill header py-20 text-white'>
+                <span className='sub-title'>Features</span>
+                    <h1 className='title text-3xl lg:text-5xl lg:leading-tight'>My Technical Skills</h1>
+            </div>
+                {/* <ReactChrono></ReactChrono> */}
+                <div className='hidden md:block'>
+                   <CssTimeLineMulti></CssTimeLineMulti>
+                </div>
+                <div className='block md:hidden'>
+                <Verticaltimeline></Verticaltimeline>
+
+                </div>
+                
+               
             </div>
 
             <div className="section" id="projects">
