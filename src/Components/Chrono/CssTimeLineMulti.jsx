@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Chrono/CssTimeLine.css'
 import html from "../../assets/logo/html.png"
-import css from "../../assets/logo/css.png"
+import css from "../../assets/logo/CSS.png"
 import js from "../../assets/logo/javascript.png"
 import mongodb from "../../assets/logo/mongodb1.png"
 import redux from "../../assets/logo/redux.png"
