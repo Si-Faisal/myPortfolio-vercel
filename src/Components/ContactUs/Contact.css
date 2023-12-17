@@ -50,7 +50,7 @@
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font: 300 12px 'Lato', sans-serif;
   letter-spacing: 1.9px;
   color: #bbb;
 }
@@ -306,7 +306,7 @@ hr {
     linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
   border: 2px solid transparent;
   padding: 32px 24px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: inherit;
   color: white;
   display: flex;

@@ -39,7 +39,7 @@ const ContactUs = () => {
                     <div className="direct-contact-container">
 
                         <ul className="contact-list">
-                            <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">CHittagong,Bangladesh</span></i></li>
+                            <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place text-">CHittagong,Bangladesh</span></i></li>
 
                             <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text phone"><a title="Give me a call">(+880) 1647456958</a></span></i></li>
 

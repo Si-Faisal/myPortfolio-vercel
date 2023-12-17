@@ -305,7 +305,7 @@
     }
 
     .mypic img {
-        height: 450px;
+        height: 300px;
         /* Adjust the image height for mobile devices */
     }
 
@@ -357,6 +357,6 @@
     }
 
     .mypic img {
-        height: 580px;
+        height: 480px;
     }
 }

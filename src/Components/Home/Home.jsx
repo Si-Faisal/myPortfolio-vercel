@@ -11,6 +11,8 @@ import ContactUs from '../ContactUs/ContactUs';
 import AboutMe from '../AboutMe/AboutMe';
 import CssTimeLineMulti from '../Chrono/CssTimeLineMulti';
 import Verticaltimeline from '../VerticalTimeline/Verticaltimeline';
+import ProgrammingSkill from '../ProgrammingSkill/ProgrammingSkill';
+import Qualifications from '../Tab/Qualifications';
 
 
 
@@ -136,11 +138,15 @@ const Home = () => {
             <div className="section" id="projects">
                 <Projects></Projects>
             </div>
+            <div>
+                <ProgrammingSkill></ProgrammingSkill>
+            </div>
             <div className="section" id="about">
-                <AboutMe></AboutMe>
+                {/* <AboutMe></AboutMe> */}
+                <Qualifications></Qualifications>
             </div>
 
-            <div className="section mt-7" id="contact me">
+            <div className="section mt-7 mb-16" id="contact me">
                 <ContactUs></ContactUs>
 
             </div>

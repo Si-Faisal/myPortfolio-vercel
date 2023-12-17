@@ -21,8 +21,8 @@ const Verticaltimeline = () => {
 <VerticalTimeline lineColor="#0A66C2">
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
-    contentArrowStyle={{ borderRight: '30px solid #ffff' ,marginLeft:"30px", marginTop:"20px"}}
+    contentStyle={{boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",  marginLeft:"auto",}}
+    contentArrowStyle={{ borderRight: '30px solid #ffff' , marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#e34c26' }}
     icon={<FaHtml5 />}
@@ -35,7 +35,7 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{  boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px",  }}
+    contentStyle={{  boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto",  }}
     contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#264de4' }}
@@ -48,7 +48,7 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
     contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#06b6d4' }}
@@ -61,7 +61,7 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
    className="vertical-timeline-element--work"
-   contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+   contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
    contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"20px"}}
    
    iconStyle={{ background:"#fff", color: '#f0db4f' }}
@@ -74,7 +74,7 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
     contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"15px"}}
     
     iconStyle={{ background:"#fff", color: '#61DBFB' }}
@@ -87,20 +87,20 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+    contentStyle={{boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
     contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#4DB33D' }}
     icon={<SiMongodb />}
   >
-    <h1 className=" text-3xl font-bold text-[#4DB33D]">MongoDB</h1>
+    <h1 className="text-xl sm:text-3xl font-bold text-[#4DB33D]">MongoDB</h1>
     <p>
     A popular NoSQL database, designed for scalability and flexibility. It stores data in flexible, JSON-like documents, making it suitable for various types of data.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
     contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#764abc' }}
@@ -113,7 +113,7 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+    contentStyle={{boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
     contentArrowStyle={{ borderRight: '30px solid  #ffff' ,marginLeft:"30px", marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#F5820D' }}
@@ -126,14 +126,14 @@ const Verticaltimeline = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"110px" }}
+    contentStyle={{ boxShadow: "rgba(240, 234, 234, 0.671) 0px 12px 28px 0px, rgba(218, 213, 213, 0.822) 0px 2px 4px 0px, rgba(199, 193, 193, 0.774) 0px 0px 0px 1px inset",background: "#f3f0f0" ,color: '#112A46', width:"60%",marginLeft:"auto" }}
 
     contentArrowStyle={{ borderRight: '30px solid #ffff' ,marginLeft:"30px", marginTop:"20px"}}
     
     iconStyle={{ background:"#fff", color: '#007acc' }}
     icon={<SiTypescript />}
   >
-    <h1 className=" text-3xl font-bold text-[#007acc]">TypeScript</h1>
+    <h1 className="text-xl sm:text-3xl font-bold text-[#007acc]">TypeScript</h1>
     <p>
     A superset of JavaScript that introduces static typing. It enhances code reliability by catching errors during development and improving the scalability of projects.
     </p>

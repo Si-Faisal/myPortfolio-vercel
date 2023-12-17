@@ -18,12 +18,13 @@ const Projects = () => {
         })
     }
     return (
-        <div id='#Projects' className='mb-16'>
+        <div id='#Projects' className='mb-2 mt-10 md:mt-16 md:mb-16'>
             
 
-            <div className="project-header text-center py-10 mb-9">
-                    <h3 className='project-subtitle text-lg md:text-xl lg:text-2xl xl:text-3xl  mb-2'>VISIT MY PORJECTS AND KEEP YOUR FEEDBACK</h3>
-                    <h1 className='project-title text-white text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mt-4 mb-0'>MY PROJECTS</h1>
+            <div className="project-header text-center py-3 md:py-10 mb-2 md:mb-9">
+                    
+                    <h1 className='project-title text-white md:text-5xl text-3xl lg:text-6xl  font-bold leading-tight mt-4 mb-2 text-[#d7dce0]'>MY PROJECTS</h1>
+                    <h3 className='project-subtitle text-sm md:text-xl'>VISIT MY PORJECTS AND KEEP YOUR FEEDBACK</h3>
             </div>
            
             <div className='mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-white'>

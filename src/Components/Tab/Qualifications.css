@@ -1,0 +1,17 @@
+.gradient-text {
+    background: linear-gradient(#ff014f, #40c9ff) padding-box,
+    linear-gradient(50deg, transparent 25%, #c613da, #c9400a) border-box;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
+  
+  .resomecard:hover {
+    background-color: #606770; 
+    cursor: pointer;
+  }
+  .tab{
+    font-weight: 900;
+    font-size:15px;
+  }
